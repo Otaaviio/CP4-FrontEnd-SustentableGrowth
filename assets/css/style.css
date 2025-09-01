@@ -1,0 +1,8 @@
+.carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+
+.logo-header {
+  height: 50px;
+}

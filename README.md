@@ -2,13 +2,13 @@
 
 Projeto acadêmico de **e-commerce sustentável**, desenvolvido com **HTML5, CSS3 e Bootstrap 5**, com foco em boas práticas de acessibilidade, responsividade e design limpo.
 
-## 📌 Visão Geral
+🔗 **Demo Online**: [Sustentable Growth no GitHub Pages](https://otaaviio.github.io/CP4-FrontEnd-SustentableGrowth/index.html)
 
+## 📌 Visão Geral
 A loja **Sustentable Growth** apresenta produtos ecológicos e sustentáveis, com páginas de categorias, produtos e contato.  
 O objetivo é oferecer uma experiência moderna e intuitiva para o usuário, destacando a importância da sustentabilidade.
 
 ## 🗂️ Estrutura do Projeto
-
 ```
 /
 ├── index.html                # Página inicial
@@ -26,14 +26,12 @@ O objetivo é oferecer uma experiência moderna e intuitiva para o usuário, des
 ```
 
 ## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** → Estrutura semântica e acessível
-- **CSS3** → Estilos customizados
-- **Bootstrap 5** → Responsividade e componentes prontos
-- **Bootstrap Icons** → Ícones minimalistas e modernos
+- **HTML5** → Estrutura semântica e acessível  
+- **CSS3** → Estilos customizados  
+- **Bootstrap 5** → Responsividade e componentes prontos  
+- **Bootstrap Icons** → Ícones minimalistas e modernos  
 
 ## 🚀 Como Rodar o Projeto
-
 1. Clone este repositório:
    ```bash
    git clone https://github.com/SEU_USUARIO/sustentable-growth.git
@@ -42,28 +40,28 @@ O objetivo é oferecer uma experiência moderna e intuitiva para o usuário, des
    ```bash
    cd sustentable-growth
    ```
-3. Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local (ex.: **Live Server** no VS Code).
+3. Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local (ex.: **Live Server** no VS Code).  
+
+Ou acesse direto a versão online no **GitHub Pages**:  
+👉 [Abrir no Navegador](https://otaaviio.github.io/CP4-FrontEnd-SustentableGrowth/index.html)
 
 ## 📱 Funcionalidades
-
-- ✅ Navbar responsiva com menu hambúrguer
-- ✅ Carrossel de imagens na Home
-- ✅ Página de categorias com cards filtráveis
-- ✅ Página de produto com descrição detalhada e relacionados
-- ✅ Página de contato com formulário validado
-- ✅ Rodapé unificado em todas as páginas
+- ✅ Navbar responsiva com menu hambúrguer  
+- ✅ Carrossel de imagens na Home  
+- ✅ Página de categorias com cards filtráveis  
+- ✅ Página de produto com descrição detalhada e relacionados  
+- ✅ Página de contato com formulário validado  
+- ✅ Rodapé unificado em todas as páginas  
 
 ## 🎨 Design
-
-- Paleta de cores: verde, branco e tons neutros (sustentabilidade e confiança).
-- Layout mobile-first, garantindo boa usabilidade em smartphones.
+- Paleta de cores: verde, branco e tons neutros (sustentabilidade e confiança).  
+- Layout mobile-first, garantindo boa usabilidade em smartphones.  
 
 ## 📌 Próximos Passos
-
-- [ ] Implementar backend (Node.js, PHP ou outro)
-- [ ] Adicionar banco de dados para cadastro de produtos e clientes
-- [ ] Criar sistema de carrinho de compras
-- [ ] Melhorar SEO e performance
+- [ ] Implementar backend (Node.js, PHP ou outro)  
+- [ ] Adicionar banco de dados para cadastro de produtos e clientes  
+- [ ] Criar sistema de carrinho de compras  
+- [ ] Melhorar SEO e performance  
 
 ---
 

@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sustentable Growth — Produto</title>
+    <title>Sustentable Growth — Contato</title>
     <link
       rel="shortcut icon"
-      href="../img/faviconLogo.ico"
+      href="../assets/img/faviconLogo.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../css/produtos.css" />
+    <link rel="stylesheet" href="../css/contato.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -23,17 +23,14 @@
     <header class="border-bottom">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a
-            class="navbar-brand"
-            href="../../index.html"
-            aria-label="Página inicial"
-          >
+          <a class="navbar-brand" href="index.html" aria-label="Página inicial">
             <img
-              src="../img/logo.png"
+              src="../assets/img/logo.png"
               alt="Logo Sustentable Growth"
               class="logo-header"
             />
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -45,27 +42,28 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="categorias.html" class="nav-link">Categorias</a>
-              </li>
-              <li class="nav-item">
                 <a
-                  href="produtos.html"
-                  class="nav-link active"
+                  class="nav-link"
+                  href="../../index.html"
                   aria-current="page"
-                  >Produtos</a
+                  >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a href="contato.html" class="nav-link">Contato</a>
+                <a class="nav-link" href="categorias.html">Categorias</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link" aria-label="Carrinho"
+                <a class="nav-link" href="produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Carrinho"
                   ><i class="bi bi-cart-fill"></i
                 ></a>
               </li>
@@ -75,107 +73,79 @@
       </nav>
     </header>
 
-    <main class="container my-5">
-      <div class="row g-5">
-        <div class="col-md-6">
-          <img
-            src="../img/sabonete.jpg"
-            class="img-fluid rounded shadow-sm mb-3"
-            alt="Kit Cosmético Natural"
-          />
-        </div>
-
-        <div class="col-md-6">
-          <h2 class="fw-bold">Kit Cosmético Natural</h2>
-          <p class="text-muted">Categoria: Cosméticos Naturais</p>
-          <h3 class="text-success">R$ 89,90</h3>
-          <p>
-            Este kit inclui sabonete artesanal, shampoo sólido e hidratante
-            natural, todos com ingredientes orgânicos e embalagens
-            biodegradáveis.
-          </p>
-          <ul class="mb-4">
-            <li>🌱 100% vegano</li>
-            <li>♻️ Embalagem reciclável</li>
-            <li>✨ Livre de parabenos e sulfatos</li>
-          </ul>
-          <div class="d-flex gap-3 mt-2">
-            <button class="btn btn-success">
-              <i class="bi bi-cart-plus"></i> Adicionar ao Carrinho
-            </button>
-            <button class="btn btn-outline-success">Comprar Agora</button>
-          </div>
-        </div>
+    <main>
+      <div class="container my-5 text-center">
+        <h2>Sobre Nossos Produtos Sustentáveis</h2>
+        <p class="lead mt-3">
+          Na Sustentable Growth, a sua privacidade é fundamental. Coletamos
+          apenas os dados necessários para sua experiência de compra. Seguimos a
+          LGPD e nunca comercializamos seus dados. Em caso de dúvidas, escreva
+          para: contato@sustenablegrowth.com.
+        </p>
       </div>
 
-      <div class="row mt-5">
-        <div class="col-12">
-          <h4>Descrição</h4>
-          <p>
-            Nosso Kit Cosmético Natural foi desenvolvido para quem busca
-            autocuidado aliado à preservação do meio ambiente. Produzido
-            artesanalmente, promove bem-estar sem agredir a natureza.
-          </p>
-        </div>
-      </div>
+      <div
+        class="d-flex justify-content-center align-items-center"
+        style="min-height: 70vh"
+      >
+        <div class="col-12 col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="NomeForm" class="form-label">Nome completo</label>
+              <input
+                type="text"
+                class="form-control"
+                id="NomeForm"
+                placeholder="Escreva seu nome aqui"
+                required
+              />
+            </div>
 
-      <div class="row mt-5">
-        <h4>Produtos Relacionados</h4>
-        <div class="col-md-3">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="../img/perfume.jpg"
-              class="card-img-top"
-              alt="Perfume Natural"
-            />
-            <div class="card-body text-center">
-              <h6 class="card-title">Perfume Natural</h6>
-              <p class="text-success">R$ 19,90</p>
-              <a href="#" class="btn btn-sm btn-success">Ver produto</a>
+            <div class="mb-3">
+              <label for="telefone" class="form-label">Telefone</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="telefone"
+                placeholder="(11) 94002-8922"
+                required
+              />
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="../img/essencia.jpg"
-              class="card-img-top"
-              alt="Essência Aromática"
-            />
-            <div class="card-body text-center">
-              <h6 class="card-title">Essência</h6>
-              <p class="text-success">R$ 29,90</p>
-              <a href="#" class="btn btn-sm btn-success">Ver produto</a>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="seuemail@email.com"
+                required
+              />
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="../img/escova.jpg"
-              class="card-img-top"
-              alt="Escova de bambu"
-            />
-            <div class="card-body text-center">
-              <h6 class="card-title">Escova de bambu</h6>
-              <p class="text-success">R$ 29,90</p>
-              <a href="#" class="btn btn-sm btn-success">Ver produto</a>
+
+            <div class="mb-3">
+              <label for="Assunto" class="form-label">Assunto</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Assunto"
+                placeholder="Sobre o que gostaria de falar?"
+                required
+              />
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="../img/camisaBege.jpg"
-              class="card-img-top"
-              alt="Camisa de linho"
-            />
-            <div class="card-body text-center">
-              <h6 class="card-title">Camisa de linho</h6>
-              <p class="text-success">R$ 99,90</p>
-              <a href="#" class="btn btn-sm btn-success">Ver produto</a>
+
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea
+                class="form-control"
+                id="mensagem"
+                rows="4"
+                placeholder="Escreva sua mensagem"
+                required
+              ></textarea>
             </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         </div>
       </div>
     </main>
